@@ -1,0 +1,187 @@
+
+.top{
+	clear:both;
+}
+
+#name{
+	color: white;
+	background-color: #4aaaa5;
+	float: left;
+	margin-left: 130px;
+	width: 200px;
+	height: 77px;
+	text-align: center;
+}
+
+#menu{
+	float:right;
+	margin-left: 100px;
+	width: 500px;
+	padding: 30px;
+	margin-right: 10px;
+	color: lightgray;
+	font-family: sans-serif;
+}
+
+img{
+	margin-right: 10px;
+}
+
+.content{
+	background-image: url("blu_stripes.png");
+	clear:both;
+	height: 550px;
+	border-top-style: solid;
+	border-width: 2px;
+	border-color: lightgray;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 0px;
+}
+#pinfo{
+	float: left;
+	background-color: white;
+	width: 500px;
+	margin-left: 100px;
+	margin-top: 50px;
+	padding: 10px;
+}
+#smedia{
+	float: left;
+	margin-left: 10px 10px 10px 10px;
+	width: 250px;
+	height: 200px;
+	background-color: white;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 70px;
+	padding-top: 10px;
+}
+input[type=text] {
+	width: 100%;
+}
+#msg{
+	height: 100px;
+}
+
+
+footer{
+	background-color: gray;
+	height: 70px;
+	color: lightblue;
+	text-align: center;
+	padding-top: 15px;
+	border-top-style: solid;
+	border-color: #4aaaa5;
+	border-width: 10px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.pic1{
+	position: relative;
+	float: left;
+}
+.pic2{
+	display: inline;
+}
+.pic3{
+	position: relative;
+	float: left;
+}
+.pic4{
+	display: inline;
+}
+.uno{
+	position: absolute;
+	background-color: darkcyan;
+	color: white;
+	text-align: center;
+	left: 0;
+	width: 200px;
+}
+.dos{
+	width: 200px;
+	left: ;
+	background-color: darkcyan;
+	color: white;
+	text-align: center;
+	clear: left;
+	display: inline;
+	position: absolute;
+	z-index: 10px;
+	left: 358px;
+
+}
+.tres{
+	width: 200px;
+	position: absolute;
+	color: white;
+	background-color: darkcyan;
+	text-align: center;
+}
+.cuatro{
+	width: 200px;
+	left: 
+	text-align: center;
+	background-color: darkcyan;
+	color: white;
+	clear: left;
+	display: inline;
+	position: absolute;
+	text-align: center;
+	left: 358px;
+}
+.txt2{
+	width: 200px;
+	height: 22px;
+}
+@media screen and (max-width: 980px) {
+	body{
+		background-color: yellow;
+	}
+	#pinfo{
+		width: 300px;
+	}
+	#smedia{
+		width: 226px;
+		height: 300px;
+		margin-left: 30px;
+	}
+	.dos{
+		left: 148px;
+	}
+	.cuatro{
+		left: 148px;
+	}
+	.content{
+		height: 960px;
+	}
+
+
+
+}
+@media screen and (max-width: 768px) {
+	body{
+		background-color: lightblue;
+	}
+	#smedia{
+		width: 113px;
+		height: 300px;
+	}
+
+}
+@media screen and (max-width: 640px) {
+	header{
+		position: static;
+	}
+	body{
+		background-color: green;
+	}
+	#pinfo{
+		width: 200px;
+	}
+	.content{
+		height: 950px;
+	}
+
+}
